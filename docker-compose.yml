@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  hyeonbo-test:
+    image: docker-test-app
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
